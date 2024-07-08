@@ -1,17 +1,18 @@
-/* body{
-	overflow: hidden;
-} */
+
+/* *{
+	border: 2px solid red;
+ } */
 .beeetle {
   /* position: absolute; */
   height: 100vh;
   width: 100vw;
-  background-color: #173140;
+  background-color: #020F15;
   background-image: url("./Assests/ghh.png");
   background-position: center;
   /* position: sticky; */
   /* z-index: 1; */
-  /* overflow: hidden; */
-overflow-x: hidden;
+  overflow: hidden;
+/* overflow-x: hidden; */
 }
 
 .beetle img {
@@ -22,9 +23,11 @@ overflow-x: hidden;
   width: auto;
   min-width: 450px;
   max-width: 550px;
+  z-index: 3;
 }
 .beetle {
   display: flex;
+  position: relative;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -39,9 +42,10 @@ overflow-x: hidden;
 }
 #img-shadow{
 	position: absolute;
-	height: auto;
-	top: -10px;
-	width: auto;
+	height: 100%;
+	/* top: -10px; */
+	margin-top:-100px ;
+	width: 150%;
   
 }
 
@@ -54,7 +58,7 @@ overflow-x: hidden;
 .beetle-name h1 {
   color: #07916f;
   font-weight: 800;
-  font-size: 100px;
+  font-size: 150px;
   margin-left: 50px;
 }
 .beetle-name p{
