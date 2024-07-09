@@ -87,6 +87,43 @@ padding-left: 10%;
 		font-weight: 800;
 		font-size: 60px;
 		margin-left: 15px;
+    margin-top: 100px;
+    padding: auto;
 	  }
+    .beetle img {
+      /* position: sticky; */
+      /* left: 15% ; */
+      height: 250px;
+      margin-top: 10px;
+      width: auto;
+      min-width: 250px;
+      max-width: 300px;
+      /* min-height: 250px; */
+      z-index: 3;
+    }
+    .beeetle {
+      /* position: absolute; */
+      height: 80vh;
+      width: 100vw;
+      background-color: #020F15;
+      background-image: url("./Assests/ghh.png");
+      background-position:center;
+      /* position: sticky; */
+      /* z-index: 1; */
+      overflow: hidden;
+    /* overflow-x: hidden; */
+    }
+    .beetle-name p{
+      align-items: center;
+      text-align: start;
+      color: whitesmoke;
+      font-size: 12px;
+      padding-left: 10%;
+      padding-right: 5%;
+      padding-top: 10px;
+      
+      
+      }
+
 }
   
